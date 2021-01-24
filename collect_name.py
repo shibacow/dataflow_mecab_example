@@ -17,7 +17,7 @@ args = parser.parse_args()
 #src='results_1611383629'
 src='results_1611386343'
 if not os.path.isdir(src):
-    cmd='gsutil -m mv -r gs://kshiba-dataflow-test/{} .'.format(src)
+    cmd='gsutil -m mv -r gs://xxxxxxxxxxxxxxxxxxxxxx/{} .'.format(src)
     subprocess.run(cmd,shell=True)
 
 def readfiles():
